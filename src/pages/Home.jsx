@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import Todolist from './todolist';
 
 export default function Home() {
+
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Todolist/>
+    </div>
+  );
 }
